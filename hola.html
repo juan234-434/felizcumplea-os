@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños Andreita!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        header {
+            background-color: #ff69b4;
+            color: white;
+            padding: 40px;
+            font-size: 40px;
+            font-family: 'Dancing Script', cursive;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            animation: slideInFromTop 1s ease-out;
+        }
+
+        .content {
+            margin: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        .message {
+            font-size: 18px;
+            margin-top: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        .chistoso {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff6347;
+            animation: bounce 1.5s infinite alternate;
+        }
+
+        .cat-image {
+            width: 300px;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: slideInFromBottom 1s ease-out;
+        }
+
+        .button {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            animation: popIn 0.5s ease-out;
+        }
+
+        .button:hover {
+            background-color: #ff4500;
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+
+        /* Animaciones */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes slideInFromTop {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(0); }
+        }
+
+        @keyframes slideInFromBottom {
+            0% { transform: translateY(100%); }
+            100% { transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    🎉🎉¡Feliz Cumpleaños, Amiguita!🎉🎉
+</header>
+
+<div class="content">
+    <p class="message">Hoy es un día muy especial, porque celebramos a la persona más increíble del mundo: ¡TÚ! CHINITA -_- 🎉</p>
+    <p class="chistoso">"Para la persona que le pasaba la tarea cuando se olvidaba de hacerla  :v ... ¡Digo!!DIGO! Para mi compañera de estudios responsable" 😂</p>
+    
+    <!-- Imagen del gato sin movimiento -->
+    <img src="https://i.pinimg.com/280x280_RS/bc/5b/ee/bc5bee42d2ba1df7b8ea13372be96df7.jpg" alt="Gato Meme" class="cat-image">
+
+    <p class="message">Gracias por todos los momentos geniales que hemos compartido en la escuela. Las risas, los chismes y hasta los exámenes, cuando nos pasabamos las respuestas :v 😂😂😂😂😂; que juntos sobrevivimos, logrando el AD ¿quién diría que lo lograríamos?. ¡Espero que este nuevo año de vida esté lleno de muchas aventuras y nuevos descubrimientos :o!</p>
+
+    <button class="button" onclick="alert('¡Te quiero mucho amiga! 🎂💖')">¡Un abrazo virtual!</button>
+</div>
+
+<footer>
+    ¡Te quiero mucho! 🎉💖💖💖💖
+</footer>
+
+</body>
+</html>
